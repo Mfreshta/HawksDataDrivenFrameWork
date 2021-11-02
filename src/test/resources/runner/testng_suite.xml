@@ -10,6 +10,11 @@
 	<parameter name="pass" value="eagles" />
 	<!--  test name="Parallel Exectuin" parallel = "methods" thread-count = "9">-->
 	<test name="DataDrivenTesting">
+	<groups>
+	<run>
+	<include name="smoke"></include>
+	</run>
+	</groups>
 		<classes>
 			<class name = "tests.HotelLoginTest"/>
 
